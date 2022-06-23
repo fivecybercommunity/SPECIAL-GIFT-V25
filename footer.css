@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #232946;
+}
+.footer .Kontak {
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+
+}
+.footer .copyright {
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+.footer {
+    background-color: #232946;
+}
+.footer .Kontak {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40rem;
+    font-size: 18px;
+}
+a {
+    padding: 20px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.footer .socialmedia {
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+    background-color: #232946;
+
+}
+div.copyright {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
