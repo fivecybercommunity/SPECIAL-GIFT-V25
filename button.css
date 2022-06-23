@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+body {
+  background-color: #232946;
+}
+a {
+  text-decoration: none;
+  font-family: "Fredoka One", cursive;
+  color: white;
+  background-color: #232946;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 2px solid white;
+  transition-duration: 0.5s;
+  text-align: center;
+}
+
+a:hover {
+  color: #232946;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
