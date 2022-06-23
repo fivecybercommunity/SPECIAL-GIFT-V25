@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #232946;
+  font-family: "Fredoka One", cursive;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+  color: white;
+  font-family: "Fredoka One", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.jumbotron img {
+  height: 650px;
+  width: auto;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+/*PENGENALAN*/
+#container h4,
+p {
+  font-family: "Fredoka One", cursive;
+}
+
+/*PROJECTS*/
+.project i,
+h1 {
+  color: white;
+}
+
+.project i {
+  font-size: 40px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.slider-wrapper {
+  display: flex;
+  width: 40%;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.slider {
+  display: flex;
+}
+
+.project button {
+  background: none;
+  border: none;
+}
+
+/*BUTTON*/
+.button-wrapper a {
+  text-decoration: none;
+  font-family: "Fredoka One", cursive;
+  color: white;
+  background-color: #232946;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 2px solid white;
+  transition-duration: 0.5s;
+  text-align: center;
+}
+
+.button-wrapper a:hover {
+  color: #232946;
+  background-color: white;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/*FOOTER*/
+.footer .Kontak {
+  font-family: "Fredoka One", cursive;
+  font-size: 18px;
+}
+.footer .copyright {
+  font-family: "Fredoka One", cursive;
+  font-size: 15px;
+}
+.footer {
+  background-color: #232946;
+}
+.footer .Kontak {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 2rem;
+  font-size: 18px;
+}
+.logo {
+  font-size: 25px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.footer .socialmedia {
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232946;
+}
+div.copyright {
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+}

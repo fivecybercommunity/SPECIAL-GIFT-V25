@@ -1,25 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&display=swap");
 
 body {
-    background-color: #232946;
+  background-color: #232946;
 }
-    
 
 .jumbotron {
-    color: white;
-    font-family: 'Fredoka One', cursive;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  color: white;
+  font-family: "Fredoka One", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-img {
-    height: 500px;
-    width: auto; 
+.jumbotron img {
+  height: 500px;
+  width: auto;
 }
 
 h1 {
-    font-size: 50px;
-    margin-top: 0px;
+  font-size: 50px;
+  margin-top: 0px;
 }
