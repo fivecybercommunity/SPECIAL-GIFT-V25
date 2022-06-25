@@ -9,8 +9,8 @@
   padding: 0;
 }
 body {
-  background-color: #232946;
   animation: pageOnload 1.5s;
+  background-color: #232946;
 }
 
 /*JUMBOTRON**/
@@ -27,6 +27,7 @@ body {
   font-family: "Fredoka One", cursive;
 }
 /*PROJECTS*/
+
 .project h1 {
   font-family: "Fredoka One", cursive;
 }
