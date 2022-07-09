@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!--main css-->
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
     <!--jumbotron-->
@@ -43,6 +43,7 @@
       <div class="d-flex align-items-center justify-content-center">
         <img
           data-aos="fade-right"
+          data-aos-offset="400"
           class="img-fluid d-sm-flex d-none"
           id="orang-putih"
           src="./src/image 1  orang putih.png"
@@ -50,7 +51,7 @@
           width="25%"
           height="auto"
         />
-        <div class="d-flex flex-column" data-aos="zoom-in-down">
+        <div class="d-flex flex-column" data-aos="zoom-in-down" data-aos-offset="400">
           <h1 class="text-white text-center">SIAPA KAMI ?</h1>
           <p class="text-white text-center fs-5 mt-2" id="text-penjelasan">
             Five Cyber Community adalah <br class="d-none d-sm-flex" />
@@ -62,6 +63,7 @@
         </div>
         <img
           data-aos="fade-left"
+          data-aos-offset="400"
           class="img-fluid d-sm-flex d-none"
           src="./src/118-1185662_open-cartoon-waving-hand-png-removebg-preview 1.png"
           alt=""
@@ -73,7 +75,7 @@
     <!--akhir pengenalan-->
 
     <!--project-->
-    <div data-aos="zoom-in-up" data-aos-offset="450" class="project d-flex flex-column align-items-center justify-content-center mt-5">
+    <div data-aos="zoom-in-up" data-aos-offset="400" class="project d-flex flex-column align-items-center justify-content-center mt-5">
       <!--judul-->
       <h1 class="text-center text-white">PROJECT KAMI</h1>
       <div class="container col-sm-10 col-lg-4 col-md-6 mt-2">
@@ -188,6 +190,7 @@
     <script>
       AOS.init({
         duration: 1000,
+        once: true,
       });
     </script>
 
