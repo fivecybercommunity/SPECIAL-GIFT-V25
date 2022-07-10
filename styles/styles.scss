@@ -59,16 +59,15 @@ body {
 }
 .footer {
   .socialmedia {
+    a {
+      i:hover {
+        color: #e6e6e3 !important;
+      }
+    }
+    a:hover {
+      color: #e6e6e3 !important ;
+    }
     margin: 1rem 0 1rem 0;
-    .fa-discord:hover {
-      color: #e6e6e3;
-    }
-    .fa-instagram:hover {
-      color: #e6e6e3;
-    }
-    .fa-github:hover {
-      color: #e6e6e3;
-    }
   }
   h3 {
     font-family: "Fredoka One", cursive;
