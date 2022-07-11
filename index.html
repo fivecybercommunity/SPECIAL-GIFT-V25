@@ -187,6 +187,28 @@
     <!--akhir footer-->
 
     <!--scripts-->
+    <!-- Confetti  JS-->
+    <script src="confetti.js"></script>
+    <script>
+      // start
+
+      const start = () => {
+        setTimeout(function () {
+          confetti.start();
+        }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+      };
+
+      //  Stop
+
+      const stop = () => {
+        setTimeout(function () {
+          confetti.stop();
+        }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+      };
+
+      start();
+      stop();
+    </script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/d0abd30197.js" crossorigin="anonymous"></script>
 
@@ -214,5 +236,11 @@
     <script>
       gsap.from(".jumbotron", { duration: 2.5, y: "-100%", opacity: 0, ease: "bounce" });
     </script>
+    <script>
+      window.onbeforeunload = () => {
+        window.scrollTo(0, 0);
+      };
+    </script>
+    <!--akhir scripts-->
   </body>
 </html>
